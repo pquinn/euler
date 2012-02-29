@@ -19,7 +19,7 @@ public class Euler42 {
 	
 	public void run(){
 		try {
-			File f = new File("words.txt");
+			File f = new File("../../words.txt");
 			Scanner scan = new Scanner(f).useDelimiter("\",\"");
 			while(scan.hasNext()){
 				words.add(new Euler42Word(scan.next(), 0));
